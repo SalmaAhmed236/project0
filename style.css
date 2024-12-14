@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(244, 244, 236);
+}
+.layout{
+    width: 600;
+    margin: auto;
+}
+.accordion{
+    background-color: rgb(120, 129, 124);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.accordion_question p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+}
+.accordion_answer p{
+    background-color: rgb(99, 99, 121);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(71, 67, 74);
+}
+.accordion:hover{
+    cursor: pointer;
+}
+.accordion_answer{
+    display: none;
+}
+.accordion.active .accordion_answer{
+    display: block;
+}
